@@ -11,55 +11,44 @@
 </head>
 
 <body>
-    <div class="Fundo">
+    <div class="fundo">
         <h1>Faça seus calculos!</h1>
-    </div>
-
-    <div class="Calculadora">
-        <h2>Calculadora</h2>
-        <p>Display</p>
-        <table>
-            <tr>
-                <td>
-                    <button class="botoes">C</button>
-                    <button class="botoes">&lt</button>
-                    <button class="botoes">/</button>
-                    <button class="botoes">X</button>
-                </td>
+        <div class="calculadora">
+            <h2>Calculadora</h2>
+            <p id="resultado">resultado</p>
+            <table>
                 <tr>
-                    <td>
-                        <button class="botoes">7</button>
-                        <button class="botoes">8</button>
-                        <button class="botoes">9</button>
-                        <button class="botoes">-</button>
-                    </td>
+                    <td><button class="botc">C</button></td>
+                    <td><button class="botoes">&lt</button></td>
+                    <td><button class="botoes">/</button></td>
+                    <td><button class="botoes">X</button></td>
                 </tr>
                 <tr>
-                    <td>
-                        <button class="botoes">4</button>
-                        <button class="botoes">5</button>
-                        <button class="botoes">6</button>
-                        <button class="botoes">+</button>
-                    </td>
-                    <tr>
-                        <td>
-                            <button class="botoes">1</button>
-                            <button class="botoes">2</button>
-                            <button class="botoes">3</button>
-                            <button class="botoes">=</button>
-                        </td>
-                        <tr>
-                            <td>
-                                <button class="botoes">0</button>
-                                <button class="botoes">.</button>
-                            </td>
-                        </tr>
-                    </tr>
+                    <td><button class="botoes">7</button></td>
+                    <td><button class="botoes">8</button></td>
+                    <td><button class="botoes">9</button></td>
+                    <td><button class="botoes">-</button></td>
                 </tr>
-            </tr>
-        </table>
-    </div>
+                <tr>
 
+                    <td><button class="botoes">4</button></td>
+                    <td><button class="botoes">5</button></td>
+                    <td><button class="botoes">6</button></td>
+                    <td><button class="botoes">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botoes">1</button></td>
+                    <td><button class="botoes">2</button></td>
+                    <td><button class="botoes">3</button></td>
+                    <td rowspan="2"><button class="botequal" style="height: 106px;">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="botoes" style="width: 106px">0</button></td>
+                    <td><button class="botoes">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 
 </html>
